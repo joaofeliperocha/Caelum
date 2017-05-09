@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+
+public class Executa {
+
+	public static void main(String[] args) {
+		// Entrada do usuario
+		in = new Scanner(System.in);
+		String input;
+		input = in.nextLine();
+
+		int[] guarda = new int[input.length()];
+		int cont = 0;
+
+		guarda = compara(input, alfabeto(), guarda);
+		palavraPrima(verificaPrimo(soma(input, guarda), cont));
+	}
+
+}
