@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class PalavrasPrimas {
+public class PalavrasPrimas {
 
 	private static Scanner in;
 
