@@ -17,7 +17,7 @@ public class PalavrasPrimas {
 		palavraPrima(verificaPrimo(soma(input, guarda), cont));
 	}
 
-	// Metodo que utiliza a tabela ASCII para adionar o alfabeto em um vetor de String
+	// Metodo que utiliza a tabela ASCII para adicionar o alfabeto em um vetor de String
 	private static String[] alfabeto() {
 		int i = 0, j = 97;
 		String[] alfabeto = new String[52];
